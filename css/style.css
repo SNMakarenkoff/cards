@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #f5f6f7;
+	padding: 40px 40px 0;
+}
+
+.card {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	-ms-align-items: center;
+	background-color: #fff;
+	padding: 50px;
+    margin: 30px auto;
+    max-width: 80ch;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.card h1 {
+    padding: 0 0 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card hr {
+    color: red;
+    border: none;
+    background-color: red;
+    height: 1px;
+    width: 200px;
+    
+}
+
+.card p {
+    padding: 30px 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card a {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    position: relative; left: 350px;
+    display: block;
+	text-decoration: none;
+	color: #fdfcff;
+	background-color: #e62074;
+	width: 30%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 10px;
+/*	box-shadow: 0px 15px 52px 10px rgba(184,184,184,0.65);*/
+}
+
+.card a:hover {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    position: relative; left: 350px;
+    display: block;
+	text-decoration: none;
+	color: #fdfcff;
+	background-color: #880a3f;
+	width: 30%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.article {
+    margin: 0 auto; /*Выравнивание по центру */
+    max-width: 80ch; /* Максимальная ширина 80 символов */
+    padding-top:80px;
+}
+.article h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 16px;
+}
+
+.article p, ul, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.57;
+    margin: 6px 0 20px;
+    color: #000;
+    text-align: justify;
+}
+
+.article img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.article a{
+    ont-family: 'Roboto', sans-serif;
+    margin: 30px;
+    position: relative; left: 350px;
+    display: block;
+	text-decoration: none;
+	color: #fdfcff;
+	background-color: #e62074;
+	width: 30%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 10px;
+}
